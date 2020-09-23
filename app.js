@@ -14,7 +14,7 @@ const sideMenu = document.querySelector(".side-menu"),
         .from(".text-content h1", {opacity:0, y:-50, duration:1, ease: "bounce"}, "-=.2")
         .from(".text-content p", {opacity:0, y:-50, duration:1, stagger:.5, ease: "bounce"}, "-=.2")
         .from(".text-content h4", {opacity:0, y:-50, duration:1, scale:.3, stagger:.5, ease: "elastic"},"-=.2")
-        .from(".image-content .pic", {opacity:0, y:50, duration:1, scale:.3, ease: "elastic"}, "-=.1");
+        .from(".image-content", {opacity:0, y:50, duration:1, scale:.3, ease: "elastic"}, "-=.1");
       }, 5000)
 
       
