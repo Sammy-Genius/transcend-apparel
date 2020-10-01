@@ -277,7 +277,10 @@ body {
         font-size:1.5rem;
     }
 
-
+#contact .contact-box a:hover {
+    background-color:#fd5e53;
+    color:#ffffff;
+}
 
 
 }
