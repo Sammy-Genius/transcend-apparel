@@ -134,7 +134,8 @@ body {
     }
 
     main .text-content {
-        grid-column:2/6;
+        grid-column:1/6;
+        margin-left:100px;
     }
 
      main .text-content h1 {
@@ -297,21 +298,25 @@ body {
     opacity: .5;
 }
 
-#contact .with-love {
+#contact .with-love .wrapper {
     width:100%;
-    background-color: #9c2017;
     display:flex;
     justify-content: space-between;
     align-items: center;
     margin-top:20px;
     position: absolute;
     bottom: 0;
+    background-color: #9c2017;
 }
 
-#contact .with-love a {
+#contact .with-love .wrapper  .creator {
+    margin:10px 145px;
+}
+
+
+#contact .with-love .wrapper  .creator a {
     text-decoration:none;
     color:#ffffff;
-    margin:10px 30px;
 }
 
 #contact .with-love a:hover {
@@ -319,9 +324,10 @@ body {
 }
 
 
-#contact .with-love p {
+#contact .with-love .wrapper .copyright {
     color:#ffffff;
-    margin:10px 30px;
+    margin:10px 130px;
+
 }
 
 
@@ -518,6 +524,7 @@ body {
         font-size: 2rem;
         color: #ffffff;
         padding-top: 30px;
+        margin:0 10px;
     }
 
     #contact .contact-box {
@@ -567,15 +574,21 @@ body {
         margin-top:20px;
     }
 
-    #contact .with-love a {
+    #contact .with-love .wrapper {
+        width:90%;
+        margin: 0 auto;
+    }
+
+    #contact .with-love .wrapper p a {
         text-decoration:none;
         color:#ffffff;
         margin-top:10px;
     }
 
-    #contact .with-love p {
+    #contact .with-love .wrapper p {
         color:#ffffff;
         margin:10px;
+        text-align: center;
     }
 
 
