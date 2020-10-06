@@ -17,9 +17,6 @@ const sideMenu = document.querySelector(".side-menu"),
         .from(".image-content", {opacity:0, y:50, duration:1, scale:.3, ease: "elastic"}, "-=.1");
       }, 5000)
 
-      
-
-
 
     //this opens the side menu
 
@@ -47,6 +44,9 @@ const sideMenu = document.querySelector(".side-menu"),
         }
       
     });
+
+
+
 
      
 

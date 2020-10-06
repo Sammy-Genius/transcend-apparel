@@ -53,8 +53,8 @@ body {
 }
 
 .preloader img {
-    width:150px;
-    height:150px;
+    width:200px;
+    height:200px;
     animation: load 1s infinite;
 }
 
@@ -96,8 +96,8 @@ body {
     }
 
     header .logo img {
-        width:50px;
-        height:50px;
+        width:100px;
+        height:100px;
         margin-left:100px;
     }
 
@@ -179,12 +179,13 @@ body {
      main .image-content {
          grid-column: 7/12;
          position:relative;
-         margin-left:-70px;
+         margin-left:-100px;
      }
+
 
      main .image-content .pic {
          width: 600px;
-         height: 600px;
+         min-height: 600px;
          margin-top:-100px;
          animation: change 8s infinite;
      }
@@ -210,12 +211,12 @@ body {
      }
 
      #gallery {
-         margin-top:70px;
+         margin-top:100px;
      }
 
      #gallery h1 {
          text-align:center;
-         font-size:3rem;
+         font-size:2rem;
      }
 
      #gallery .gallery-pics {
@@ -239,47 +240,88 @@ body {
      }
 
      #contact {
-        margin:30px auto;
+        margin:0px auto;
         width: 100%;
-        height:400px;
+        height:300px;
+        background-color:#ba2f25;
+        position: relative;
     }
 
     #contact h1 {
         text-align:center;
-        font-size: 3rem;
-        color: #000000;
-        padding-top: 30px;
+        font-size: 2rem;
+        color:#ffffff;
+        padding-top: 10px;
     }
 
     #contact .contact-box {
         width:100%;
-        display: flex;
-        flex-direction: column;
+        display:flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     #contact .contact-box a {
         text-decoration: none;
-        color: #000000;
-        margin-top: 10px;
+        color: #ffffff;
+        margin-top: 50px;
         font-weight: bold;
-        font-size:1.5rem;
+        font-size:1.2rem;
     }
 
     #contact .contact-box a i {
         font-weight: bold;
+        border: 2px solid #ffffff;
+        border-radius:50%;
+        background-color: #ffffff;
+        padding: 10px 10px;
+        color:#ba2f25;
     }
 
     #contact .contact-box span {
-        color: #000000;
-        margin-top:10px;
-        font-size:1.5rem;
+        color:#ffffff;
+        margin-top:50px;
+        font-size:1.2rem;
     }
 
+    #contact .contact-box span i {
+        border: 2px solid #ffffff;
+        border-radius:50%;
+        background-color: #ffffff;
+        padding: 10px 10px;
+        color:#ba2f25;
+    }
+
+
 #contact .contact-box a:hover {
-    background-color:#fd5e53;
+    opacity: .5;
+}
+
+#contact .with-love {
+    width:100%;
+    background-color: #9c2017;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+    position: absolute;
+    bottom: 0;
+}
+
+#contact .with-love a {
+    text-decoration:none;
     color:#ffffff;
+    margin:10px 30px;
+}
+
+#contact .with-love a:hover {
+    opacity:0.5;
+}
+
+
+#contact .with-love p {
+    color:#ffffff;
+    margin:10px 30px;
 }
 
 
@@ -306,8 +348,8 @@ body {
     }
 
     header .logo img {
-        width:50px;
-        height:50px;
+        width:80px;
+        height:80px;
         margin-left:30px;
     }
 
@@ -466,14 +508,15 @@ body {
     }
 
     #contact {
-        margin:30px auto;
-        width: 80%;
+        margin:0px auto;
+        width: 100%;
+        background-color: #ba2f25;
     }
 
     #contact h1 {
         text-align:center;
-        font-size: 2.3rem;
-        color: #000000;
+        font-size: 2rem;
+        color: #ffffff;
         padding-top: 30px;
     }
 
@@ -486,20 +529,53 @@ body {
 
     #contact .contact-box a {
         text-decoration: none;
-        color: #000000;
+        color: #ffffff;
         margin-top: 20px;
         font-weight: bold;
-        font-size:1.5rem;
+        font-size:1.2rem;
     }
 
     #contact .contact-box a i {
         font-weight: bold;
+        border: 2px solid #ffffff;
+        border-radius:50%;
+        background-color: #ffffff;
+        padding: 10px 10px;
+        color:#ba2f25;
     }
 
     #contact .contact-box span {
-        color: #000000;
+        color: #ffffff;
         margin-top:20px;
-        font-size:1.5rem;
+        font-size:1.2rem;
+    }
+
+    #contact .contact-box span i {
+        border: 2px solid #ffffff;
+        border-radius:50%;
+        background-color: #ffffff;
+        padding: 10px 10px;
+        color:#ba2f25;
+    }
+
+    #contact .with-love {
+        width:100%;
+        background-color: #9c2017;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:20px;
+    }
+
+    #contact .with-love a {
+        text-decoration:none;
+        color:#ffffff;
+        margin-top:10px;
+    }
+
+    #contact .with-love p {
+        color:#ffffff;
+        margin:10px;
     }
 
 
